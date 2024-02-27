@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+$bodyColor: #442A2B;
+$color1: #F6E4CC;
+
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: $bodyColor;
+    height: 100%;
+}
+
+main {
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    img {
+        max-width: 100%;
+        object-fit: cover;
+    }
+    h1 {
+        color: $color1;
+        font-size: calc(1.5rem + 1.4vw);
+        margin: 0;
+    }
+
+    @media screen and (max-width: 252px){
+        h1 {
+            font-size: 1.4rem;
+        } 
+    }
+}

@@ -1,10 +1,13 @@
-import { useState } from 'react'
-
+import './main.scss'
+import Image from '../public/image1.jpg'
 function App() {
 
   return (
     <>
-      <h1>Hello Shine of Devs!</h1>
+      <main>
+        <img src={Image} alt="Image" />
+        <h1>Yakında...</h1>
+      </main>
     </>
   )
 }
