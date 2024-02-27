@@ -17,10 +17,12 @@ main {
     align-items: center;
     flex-direction: column;
     gap: 1.2rem;
+    
     img {
         max-width: 100%;
         object-fit: cover;
     }
+    
     h1 {
         color: $color1;
         font-size: calc(1.5rem + 1.4vw);
